@@ -14,6 +14,7 @@
 		A8E9B44C2119383F003ECA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E9B44A2119383F003ECA43 /* LaunchScreen.storyboard */; };
 		A8E9B4572119383F003ECA43 /* ProtocolDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9B4562119383F003ECA43 /* ProtocolDemoTests.swift */; };
 		A8E9B46221193840003ECA43 /* ProtocolDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9B46121193840003ECA43 /* ProtocolDemoUITests.swift */; };
+		A8E9B47021194032003ECA43 /* KetQuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9B46F21194032003ECA43 /* KetQuaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A8E9B45D21193840003ECA43 /* ProtocolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E9B46121193840003ECA43 /* ProtocolDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDemoUITests.swift; sourceTree = "<group>"; };
 		A8E9B46321193840003ECA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E9B46F21194032003ECA43 /* KetQuaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetQuaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A8E9B4482119383F003ECA43 /* Assets.xcassets */,
 				A8E9B44A2119383F003ECA43 /* LaunchScreen.storyboard */,
 				A8E9B44D2119383F003ECA43 /* Info.plist */,
+				A8E9B46F21194032003ECA43 /* KetQuaViewController.swift */,
 			);
 			path = ProtocolDemo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				A8E9B4442119383B003ECA43 /* ViewController.swift in Sources */,
 				A8E9B4422119383B003ECA43 /* AppDelegate.swift in Sources */,
+				A8E9B47021194032003ECA43 /* KetQuaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA7JZCPK6Y;
 				INFOPLIST_FILE = ProtocolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WA7JZCPK6Y;
 				INFOPLIST_FILE = ProtocolDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
